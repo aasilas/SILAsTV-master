@@ -15,6 +15,8 @@ public class SBTActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sbt);
         myVideoView = (VideoView)this.findViewById(R.id.myVideoView); MediaController mc = new MediaController(this); myVideoView.setMediaController(mc);
         final String urlStream = "http://gbbrlive2.sambatech.com.br/liveevent/sbt3_8fcdc5f0f8df8d4de56b22a2c6660470/livestream/chunklist.m3u8";
+        //final String urlStream= "https://ead.ucsal.br/login/index.php";
         runOnUiThread(new Runnable() { @Override public void run() { myVideoView.setVideoURI(Uri.parse(urlStream)); } });
+        myVideoView.start();
     }
 }
