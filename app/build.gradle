@@ -3,8 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "ws.domore.lanchonetedelicia"
-        minSdkVersion 19
+        applicationId "com.example.adm.silastv"
+        minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
