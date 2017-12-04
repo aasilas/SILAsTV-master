@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/aasilas/SILAsTV-master01.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/aasilas/minhaLanchonteDelicia.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\adm\Documents\GitHub" />
+    <option name="cloneParentDir" value="C:\Users\adm\Documents\GitHub\minhaLanchoneteDelicia" />
   </component>
 </application>
