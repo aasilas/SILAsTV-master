@@ -8,7 +8,7 @@ import android.provider.BaseColumns;
 
 public class Script {
 
-    public static final String DB_NOME = "informacoes.db";
+    public static final String DB_INFORMACOES = "informacoes.db";
     public static final int DB_VERSAO = 1;
     public static final String SQL_CREATE_ENTRIES = "CREATE TABLE " +
             ProdutoEntry.TABELA_NOME + " (" +

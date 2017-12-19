@@ -10,8 +10,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class InformacoesDB extends SQLiteOpenHelper {
 
-    public InformacoesDB(Context context){
-        super(context, Script.DB_NOME, null, Script.DB_VERSAO);
+    public InformacoesDB(Context context, String name, SQLiteDatabase.CursorFactory factory, int version){
+        super(context, Script.DB_INFORMACOES, null, Script.DB_VERSAO);
     }
 
     @Override

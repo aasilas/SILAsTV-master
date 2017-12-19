@@ -24,4 +24,8 @@ public class Canais {
         this.nome = nome;
     }
 
+    public String getDescricao() {return getDescricao();}
+
+    public void setDescricao(String descricao) {this.Descricao = descricao;}
+
 }

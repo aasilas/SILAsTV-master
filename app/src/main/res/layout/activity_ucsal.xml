@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/back"
+    android:background="@drawable/globobackground"
     android:id="@+id/activity_ucsal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,7 +15,43 @@
         android:id="@+id/myVideoView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_centerVertical="true" />
+        android:layout_marginBottom="182dp" />
+
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="121dp"
+        android:text="TV CATÓLICA" />
+
+    <TextView
+        android:id="@+id/textNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="56dp"
+        android:layout_marginLeft="15px"
+        android:text="666"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textNome"
+        android:layout_marginLeft="15px"
+        android:layout_marginStart="80dp"
+        android:layout_toEndOf="@+id/textNome"
+        android:layout_toRightOf="@+id/textNome"
+        android:text="MARIA NÃO MORREU VIRGEM" />
+
 </RelativeLayout>
