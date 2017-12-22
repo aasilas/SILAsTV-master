@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = (TextView) this.findViewById(R.id.textView1);
         textView.setText(R.string.nome_canal);
+        TextView textView0 = (TextView) this.findViewById(R.id.textView2);
         textView.setText(R.string.descricao);
 
 

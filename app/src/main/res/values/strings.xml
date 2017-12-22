@@ -3,4 +3,6 @@
     <string name="nome_canal">nome_canal</string>
     <string name="descricao">descricao</string>
     <string name="descricao_canal">descricao_canal</string>
+    <string name="nom_canal_sbt">nome_canal_sbt</string>
+    <string name="descricao_sbt">descricao_sbt</string>
 </resources>
