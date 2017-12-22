@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".SBTActivity" />
         <activity android:name=".UCSALActivity" />
-        <activity android:name=".GLOBOActivity"></activity>
+        <activity android:name=".GLOBOActivity" />
+        <activity android:name=".DetalheActivity"></activity>
     </application>
 
 </manifest>

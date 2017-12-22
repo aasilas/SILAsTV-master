@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SILAsTV</string>
+    <string name="nome_canal">nome_canal</string>
+    <string name="descricao">descricao</string>
+    <string name="descricao_canal">descricao_canal</string>
 </resources>

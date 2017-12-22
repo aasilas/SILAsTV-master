@@ -21,33 +21,24 @@
         android:layout_marginBottom="174dp" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="111dp"
-        android:text="TV CATÓLICA" />
+        android:layout_marginBottom="113dp"
+        android:text="@string/nome_canal" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="43dp"
-        android:text="666" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView6"
-        android:layout_alignBottom="@+id/textView6"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:text="MARIA NÃO MORREU VIRGEM" />
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:text="@string/descricao" />
 
 </RelativeLayout>
